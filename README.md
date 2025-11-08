@@ -1,4 +1,5 @@
 # Getting Started
+https://www.figma.com/design/twasy8Bca4hW7gunLFSLoY/Color-Scheme-Generator?node-id=2-1155&t=IzCHqP4DYYpcJLBq-0
 Install the dependencies and run the project
 ```
 npm install
