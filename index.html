@@ -3,7 +3,23 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>index.html</h1>
+        <div id ="container">
+            <form id="color-form">
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                <select name = "colors" id="colorScheme">
+                    <option value="monochrome">MonoChrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                </select>
+                <button type="submit" id="btn">Get color scheme</button>
+            </form>
+            <div id="color-generator">
+                
+            </div>
+            
+            <h1 id="test-section">Testing</h1>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
